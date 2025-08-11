@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Violence & Gang Prevention</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f8fa;
+            line-height: 1.6;
+            position: relative;
+        }
+
+        header {
+            background: #ff4d4d;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #ff4d4d;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+            margin-top: 40px;
+        }
+
+        /* Watermark */
+        .watermark {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            opacity: 0.5;
+            font-size: 14px;
+            color: #ff4d4d;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 5px 10px;
+            border-radius: 5px;
+            z-index: 1000;
+            font-weight: bold;
+        }
+
+        /* Download Button */
+        .download-btn {
+            display: inline-block;
+            background: #ff4d4d;
+            color: white;
+            padding: 10px 20px;
+            margin: 20px 0;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .download-btn:hover {
+            background: #cc0000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Youth Violence & Gang Prevention</h1>
+    </header>
+
+    <nav>
+        <a href="#dangers">Dangers of Gangs</a>
+        <a href="#prevention">Prevention Tips</a>
+        <a href="#organizations">Support Groups</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="dangers">
+            <h2>Dangers of Joining Gangs</h2>
+            <p>Gangs may seem like a place to belong, but they bring serious risks. Members often face violence, arrest, and lifelong criminal records. Many also become trapped in cycles of fear, poverty, and mistrust.</p>
+            <ul>
+                <li>Risk of injury or death from violence</li>
+                <li>Permanent criminal record affecting jobs and travel</li>
+                <li>Involvement in illegal activities</li>
+                <li>Loss of trust and safety in the community</li>
+            </ul>
+        </section>
+
+        <section id="prevention">
+            <h2>How to Prevent Youth Violence</h2>
+            <p>Communities can protect young people by giving them safe spaces, strong support networks, and positive activities to join. Education, mentorship, and strong family bonds are key.</p>
+            <ul>
+                <li>Encourage after-school programs</li>
+                <li>Promote open communication with trusted adults</li>
+                <li>Get involved in sports, arts, and skill-building clubs</li>
+                <li>Stay away from unsafe areas and negative influences</li>
+            </ul>
+        </section>
+
+        <section id="organizations">
+            <h2>Organizations That Help</h2>
+            <p>These groups work to keep youth safe and guide them toward a better future:</p>
+            <ul>
+                <li><a href="https://www.end-violence.org/" target="_blank">Global Partnership to End Violence Against Children</a></li>
+                <li><a href="https://www.unicef.org/protection/violence-against-children" target="_blank">UNICEF – Violence Prevention</a></li>
+                <li><a href="https://www.youth.gov/" target="_blank">Youth.gov – Gang Prevention</a></li>
+            </ul>
+        </section>
+
+        <a href="youth_violence_info.pdf" class="download-btn" download>Download PDF</a>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Youth Violence Awareness Project</p>
+    </footer>
+
+    <div class="watermark">Valenzuela, Vaughn Zacchary Fleras</div>
+
+</body>
+</html>
